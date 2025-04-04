@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // allow your frontend during development
+    origin: "https://portfolio-green-eight-85.vercel.app", // allow your frontend during development
     methods: ["GET", "POST"],
     credentials: true,
   })
